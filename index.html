@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityBistro</title>
+    <link rel="icon" href="IMAGES/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header >
+ <div class="logo">
+    <img src="IMAGES/logo.png" alt="logo">
+
+ </div>
+ 
+ <nav>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        
+        <li><a href="#testimonials">Testimonial</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+   
+ </nav>
+ <div class="reservation">
+  <a href="#reservation">Reserve</a>
+  </div>
+    </header>
+    <!--Hero Section-->
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            <h1>Welcome to CityBistro</h1>
+            <p>Where Flavor Meets Elegance</p>
+            <a href="#menu" class="btn-cta">View Menu</a>
+        </div>
+
+    </section>
+    <!--About section-->
+    <section class="about" id="about">
+        
+            <div class="about-distro">
+                <h2>About CityBistro</h2>
+            <p>CityBistro is a modern bistro where <span class="highlight">gourmet cuisine</span>
+                 meets a cozy, elegant atmosphere. Our chefs use the 
+                freshest ingridients to craft dishes that delight your senses and leave a lasting 
+                impression.
+            
+                From <span class="highlight">signature burger</span> to <span class="highlight">
+                    exquiste desserts
+                </span>, every plate is carefully prepared with passion and attention to detail.
+                We invite you to enjoy  a dining experience that combines flavor,comfort, and style.
+            </p>
+            
+            
+           
+            
+         </div>
+          <img src="IMAGES/about.png" alt="about">
+        
+
+    </section>
+    <!--Menu Section-->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="IMAGES/grilledchicken.png" alt="">
+                <h3>Grilled chicken</h3>
+                <p>$10</p>
+            </div>
+            <div class="menu-item">
+                <img src="IMAGES/burger.png" alt="">
+                <h3>Beef Burger</h3>
+                <p>$12</p>
+            </div>
+            <div class="menu-item">
+                <img src="IMAGES/pizza.png" alt="">
+                <h3>Signature Pizza</h3>
+                <p>$15</p>
+            </div>
+            <div class="menu-item">
+                <img src="IMAGES/pizza.png" alt="">
+                <h3>Vegetarian Pasta</h3>
+                <p>$11</p>
+            </div>
+        </div>
+    </section>
+    <!--Reservation section-->
+    <section class="reservation" id="reservation">
+        <h2>Reserve Your Table</h2>
+        <p>Fill out the form below and we'll confirm your reservation promptly.</p>
+        <form action="">
+            <input type="text" placeholder="Your Name" requred>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Phone Number">
+            <input type="date" placeholder="Reservation date" required>
+            <input type="time">
+            
+            <input type="number" placeholder="Number of Guests" min="1" required>
+            <textarea name="message" id="message" placeholder="Additional noe"></textarea>
+            <button type="submit">Reserve Now</button>
+        </form>
+    </section>
+        <!--Testimonials-->
+        <section class="testimonials" id="testimonials">
+            <h2>What Our Guest Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <img src="IMAGES/youngFemale.jpg" alt="youngfemale">
+                    <p>"CityBistro offers the best dining experience in the city.Every dishes
+                        is a masterpiece craft with love.""
+                    </p>
+                    <h4>Jane Kwamboka,Food Enthusiast</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="IMAGES/oldman.jpg" alt="oldman">
+                    <p>"Elegant ambiance and amazing food- I highly recommend CityBistro to
+                        anyone  looking for a special meal.""
+                    </p>
+                    <h4>Michael Rasto,Business professional.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="IMAGES/coup;e.jpg" alt="couple">
+                    <p>"From appetizers to desserts, every bite at CityBistros 
+                        is unforgatable .service  is top-notch!"
+                    </p>
+                    <h4>Mr and Mrs. Mike Sale</h4>
+                </div>
+            </div>
+        </section>
+        <!--Call to action section-->
+        <section class="call-to-action">
+            <h2>Reserve Your Table  Today</h2>
+            <p>Experience  gourmet  dining at the heart of the city.</p>
+            <a href="#reservation" class="btn-cta">BookNow</a>
+
+        </section>
+        <!--Contact section-->
+        <section class="contact" id="contact">
+            <H2>Contacts</H2>
+            <p>Feel free to connect with us for enqueries.</p>
+            <form action="">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="email" placeholder="email"> 
+                <textarea name="message" id="message">Enter your message</textarea>
+                <input type="submit" name="submit" value="Send">
+            </form>
+        </section>
+        <!--Footer-->
+        <footer>
+            <div class="footer-container">
+                <!--Logo/brand-->
+                <div class="logo">
+                    <img src="IMAGES/logo.png" alt="logo">
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#reservation">BookTable</a></li>
+                    </ul>
+                </div>
+                <!--Social media-->
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fa-brands  fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i clas="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy;CityBistro-All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
